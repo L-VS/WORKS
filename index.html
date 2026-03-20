@@ -17,11 +17,14 @@
 
   <nav>
     <span class="nav-logo">◈ WORKS</span>
-    <ul class="nav-links">
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">Profile</a></li>
-      <li><a href="#stack">Stack</a></li>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#projects" onclick="closeNav()">Projects</a></li>
+      <li><a href="#about" onclick="closeNav()">Profile</a></li>
+      <li><a href="#stack" onclick="closeNav()">Stack</a></li>
     </ul>
+    <button class="nav-burger" id="navBurger" aria-label="Menu" onclick="toggleNav()">
+      <span></span><span></span>
+    </button>
   </nav>
 
   <!-- ── HERO ── -->
